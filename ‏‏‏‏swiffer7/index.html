@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MINE SWIFFER GAME</title>
+    <link rel="stylesheet" href="css/main.css" />
+   
+  </head>
+  <body onload="initGame()">
+    <h1>THE MINE SWIFFER GAME</h1>
+    <h2>SELECT YOUR LEVEL</h2>
+    <button class="easy" onclick="level(this)">EASY</button>
+    <button class="medium" onclick="level(this)">MEDIUM</button>
+    <button class="hard" onclick="level(this)">HARD</button>
+    
+    <div class="time">
+      <span class="seconds"></span>
+    </div>
+    <div class="status"></div>
+    <div >
+      <table>
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
